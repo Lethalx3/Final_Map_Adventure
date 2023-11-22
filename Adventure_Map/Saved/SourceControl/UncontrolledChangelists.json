@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Universidad/Journalist/Final_Map_Adventure/Adventure_Map/Content/Scan/Scan_Material.uasset",
+				"D:/Universidad/Journalist/Final_Map_Adventure/Adventure_Map/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Universidad/Journalist/Final_Map_Adventure/Adventure_Map/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"D:/Universidad/Journalist/Final_Map_Adventure/Adventure_Map/Content/Scan/Radius.uasset",
+				"D:/Universidad/Journalist/Final_Map_Adventure/Adventure_Map/Content/Textures/water-normal.uasset",
+				"D:/Universidad/Journalist/Final_Map_Adventure/Adventure_Map/Content/Textures/water_Texture.uasset",
+				"D:/Universidad/Journalist/Final_Map_Adventure/Adventure_Map/Content/Scan/Scan_Material_Inst.uasset",
 				"C:/Users/nicol/Documents/Unreal Projects/Adventure_Map/Content/ThirdPerson/Mapa_Adventure.umap",
 				"C:/Users/nicol/Documents/Unreal Projects/Adventure_Map/Content/ThirdPerson/Maps/Mapa_Adventure.umap",
 				"C:/Users/nicol/Documents/Unreal Projects/Adventure_Map/Content/Fantastic_Village_Pack/maps/map_village_day.umap",
