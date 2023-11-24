@@ -1554,3 +1554,1043 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.24-01.00.42:255][232]AssetCheck: New page: Asset Save: multiple assets
 [2023.11.24-01.00.42:255][232]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Mission/BP_Mission_Trigger.BP_Mission_Trigger
 [2023.11.24-01.00.42:255][232]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Mission/mixkit-fairy-arcade-sparkle-866.mixkit-fairy-arcade-sparkle-866
+[2023.11.24-01.03.18:762][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.03.18:864][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.11.24-01.03.19:514][778]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.11.24-01.03.19:514][778]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/ThirdPersonMap6AB2CFB0403FB370F469F8B4D06897A8.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2023.11.24-01.03.19:533][778]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.715
+[2023.11.24-01.03.19:539][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 776 ms (total: 1.59 sec)
+[2023.11.24-01.03.19:548][778]AssetCheck: New page: Asset Save: ThirdPersonMap
+[2023.11.24-01.03.19:548][778]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.11.24-01.07.45:166][750]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.11.24-01.07.45:166][750]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.11.24-01.07.51:199][  1]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Mission/BP_Mission_Trigger.BP_Mission_Trigger
+[2023.11.24-01.07.51:199][  1]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.08.00:762][517]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\pipet\Downloads\mission point.fbx)
+[2023.11.24-01.08.00:769][517]LogFbx: Loading FBX Scene from C:\Users\pipet\Downloads\mission point.fbx
+[2023.11.24-01.08.00:773][517]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.24-01.08.03:742][517]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.24-01.08.03:847][517]LogFbx: Display: Triangulating static mesh Cube
+[2023.11.24-01.08.03:873][517]LogStaticMesh: Display: Building static mesh mission_point...
+[2023.11.24-01.08.03:886][517]LogStaticMesh: Built static mesh [0.01s] /Game/Mission/mission_point.mission_point
+[2023.11.24-01.08.03:917][517]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Total job queries 217, among them cache hits 18 (8.29%)
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Tracking 196 distinct input hashes that result in 95 distinct outputs (48.47%)
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: RAM used: 1.24 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.15%
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Job execution time: average 1.15 s, max 1.15 s
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Job life time (pending + execution): average 1.24 s, max 1.24
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.24 s
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Average processing rate: 0.80 jobs/sec
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Total thread time: 0.50 s
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Total thread preprocess time: 0.09 s
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Percentage time preprocessing: 18.61%
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Effective parallelization: 0.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.11.24-01.08.06:022][586]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.11.24-01.08.06:024][586]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.11.24-01.08.06:024][586]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.11.24-01.08.06:024][586]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.08.12:511][964]LogSlate: Window 'Message Log' being destroyed
+[2023.11.24-01.08.12:515][964]LogSlate: Window 'Message Log' being destroyed
+[2023.11.24-01.08.27:564][381]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.33:072][693]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.34:625][785]BlueprintLog: New page: Compile BP_Mission_Trigger
+[2023.11.24-01.08.34:745][785]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.11.24-01.08.34:759][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.08.34:832][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mission/BP_Mission_Trigger" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/BP_Mission_Trigger.uasset" SILENT=true
+[2023.11.24-01.08.34:837][785]LogSavePackage: Moving output files for package: /Game/Mission/BP_Mission_Trigger
+[2023.11.24-01.08.34:837][785]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/BP_Mission_TriggerADF2DDDC4B43F50794BA1FB87D0D4479.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/BP_Mission_Trigger.uasset'
+[2023.11.24-01.08.34:844][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 1.68 sec)
+[2023.11.24-01.08.34:852][785]AssetCheck: New page: Asset Save: BP_Mission_Trigger
+[2023.11.24-01.08.34:852][785]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Mission/BP_Mission_Trigger.BP_Mission_Trigger
+[2023.11.24-01.08.34:903][786]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.37:017][905]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.24-01.08.37:023][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.24-01.08.37:023][905]PIE: New page: PIE session: ThirdPersonMap (23/11/2023, 3:08:37 p. m.)
+[2023.11.24-01.08.37:024][905]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.08.37:245][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.220843s)
+[2023.11.24-01.08.37:245][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.220889s)
+[2023.11.24-01.08.37:245][905]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.08.37:245][905]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.24-01.08.37:246][905]LogPlayLevel: PIE: World Init took: (0.001264s)
+[2023.11.24-01.08.37:304][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.11.24-01.08.37:307][905]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.11.24-01.08.37:307][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.24-01.08.37:307][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.24-01.08.37:307][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.24-01.08.37:307][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.24-01.08.37:307][905]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.24-01.08.37:307][905]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.24-01.08.37:307][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.24-01.08.37:307][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.24-01.08.37:307][905]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.24-01.08.37:307][905]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.24-01.08.37:307][905]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.24-01.08.37:309][905]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.24-01.08.37:342][905]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (WF-XB700)
+[2023.11.24-01.08.37:344][905]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.24-01.08.37:344][905]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.24-01.08.37:344][905]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.24-01.08.37:344][905]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.11.24-01.08.37:344][905]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.11.24-01.08.37:346][905]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.11.24-01.08.37:346][905]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.11.24-01.08.37:346][905]LogInit: FAudioDevice initialized.
+[2023.11.24-01.08.37:346][905]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2023.11.24-01.08.37:405][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.08.37:405][905]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.24-01.08.37:514][905]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.11.23-20.08.37
+[2023.11.24-01.08.37:516][905]LogWorld: Bringing up level for play took: 0.111130
+[2023.11.24-01.08.37:518][905]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.11.24-01.08.37:548][905]PIE: Server logged in
+[2023.11.24-01.08.37:549][905]PIE: Play in editor total start time 0,525 seconds.
+[2023.11.24-01.08.37:611][905]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.11.24-01.08.48:315][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.08.48:315][532]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.08.48:317][532]LogSlate: Window 'Adventure_Map Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.24-01.08.48:323][532]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.08.48:342][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.08.48:347][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.24-01.08.48:357][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.08.48:421][532]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.24-01.08.48:423][532]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.24-01.08.48:447][532]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.11.24-01.08.48:509][533]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.11.24-01.08.50:199][633]LogViewport: Scene viewport resized to 1230x867, mode Windowed.
+[2023.11.24-01.08.53:956][846]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.55:029][847]LogPhysics: Warning: Scale for /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.11.24-01.08.55:030][847]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube' 
+[2023.11.24-01.08.55:030][847]LogPhysics: Warning: Scale for /Engine/Transient.World_22:PersistentLevel.BP_Mission_Trigger_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.11.24-01.08.55:030][847]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_22:PersistentLevel.BP_Mission_Trigger_C_0.Cube' 
+[2023.11.24-01.08.55:503][848]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.57:548][946]LogPhysics: Warning: Scale for /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.11.24-01.08.57:548][946]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube' 
+[2023.11.24-01.08.57:548][946]LogPhysics: Warning: Scale for /Engine/Transient.World_22:PersistentLevel.BP_Mission_Trigger_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.11.24-01.08.57:548][946]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_22:PersistentLevel.BP_Mission_Trigger_C_0.Cube' 
+[2023.11.24-01.08.57:597][947]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.57:777][952]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.57:951][955]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.57:987][956]LogPhysics: Warning: Scale for /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.11.24-01.08.57:987][956]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube' 
+[2023.11.24-01.08.57:987][956]LogPhysics: Warning: Scale for /Engine/Transient.World_22:PersistentLevel.BP_Mission_Trigger_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.11.24-01.08.57:987][956]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_22:PersistentLevel.BP_Mission_Trigger_C_0.Cube' 
+[2023.11.24-01.08.58:020][956]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube, from: Addition to navoctree)
+[2023.11.24-01.08.58:029][957]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.58:133][963]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube, from: Remove from navoctree)
+[2023.11.24-01.08.58:147][964]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.58:853][  6]LogPhysics: Warning: Scale for /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.11.24-01.08.58:853][  6]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube' 
+[2023.11.24-01.08.58:853][  6]LogPhysics: Warning: Scale for /Engine/Transient.World_22:PersistentLevel.BP_Mission_Trigger_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.11.24-01.08.58:853][  6]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_22:PersistentLevel.BP_Mission_Trigger_C_0.Cube' 
+[2023.11.24-01.08.58:854][  6]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube, from: Addition to navoctree)
+[2023.11.24-01.08.58:863][  7]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.58:932][ 11]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Mission_Trigger_C_1.Cube, from: Remove from navoctree)
+[2023.11.24-01.08.58:962][ 12]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.58:995][ 14]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.59:034][ 16]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.08.59:727][ 57]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:246][435]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:340][440]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:406][444]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:507][450]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:561][452]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:597][454]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:657][457]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:717][460]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:772][463]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.06:839][467]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.07:172][487]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.07:394][500]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.14:249][908]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.14:482][922]LogEditorTransaction: Undo Modify Component Scale
+[2023.11.24-01.09.14:575][923]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.16:864][ 38]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.16:947][ 43]LogEditorTransaction: Undo Modify Component Scale
+[2023.11.24-01.09.16:995][ 44]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.19:194][173]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.31:141][609]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.32:016][658]LogEditorTransaction: Undo Modify Component Scale
+[2023.11.24-01.09.32:095][659]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.35:210][739]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.37:240][826]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.37:411][830]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.38:335][885]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.43:515][194]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.47:027][404]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.50:962][637]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.55:992][937]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.56:158][947]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.09.57:976][ 55]BlueprintLog: New page: Compile BP_Mission_Trigger
+[2023.11.24-01.09.58:069][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2023.11.24-01.09.58:082][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.09.58:138][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mission/BP_Mission_Trigger" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/BP_Mission_Trigger.uasset" SILENT=true
+[2023.11.24-01.09.58:143][ 55]LogSavePackage: Moving output files for package: /Game/Mission/BP_Mission_Trigger
+[2023.11.24-01.09.58:143][ 55]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/BP_Mission_Trigger1D0FFCBC404535CD26E49E99EA70C6B9.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/BP_Mission_Trigger.uasset'
+[2023.11.24-01.09.58:149][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 1.74 sec)
+[2023.11.24-01.09.58:160][ 55]AssetCheck: New page: Asset Save: BP_Mission_Trigger
+[2023.11.24-01.09.58:160][ 55]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Mission/BP_Mission_Trigger.BP_Mission_Trigger
+[2023.11.24-01.09.58:205][ 56]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-01.10.00:324][181]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.24-01.10.00:329][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.24-01.10.00:330][181]PIE: New page: PIE session: ThirdPersonMap (23/11/2023, 3:10:00 p. m.)
+[2023.11.24-01.10.00:331][181]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.10.00:556][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.226191s)
+[2023.11.24-01.10.00:556][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.226292s)
+[2023.11.24-01.10.00:556][181]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.10.00:557][181]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.24-01.10.00:557][181]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2023.11.24-01.10.00:615][181]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2023.11.24-01.10.00:616][181]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.11.24-01.10.00:616][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.24-01.10.00:616][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.24-01.10.00:616][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.24-01.10.00:616][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.24-01.10.00:616][181]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.24-01.10.00:616][181]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.24-01.10.00:616][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.24-01.10.00:616][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.24-01.10.00:617][181]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.24-01.10.00:617][181]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.24-01.10.00:617][181]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.24-01.10.00:619][181]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.24-01.10.00:654][181]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (WF-XB700)
+[2023.11.24-01.10.00:654][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.24-01.10.00:654][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.24-01.10.00:654][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.24-01.10.00:655][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.11.24-01.10.00:655][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.11.24-01.10.00:657][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.11.24-01.10.00:657][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.11.24-01.10.00:657][181]LogInit: FAudioDevice initialized.
+[2023.11.24-01.10.00:657][181]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2023.11.24-01.10.00:660][181]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.24-01.10.00:772][181]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.11.23-20.10.00
+[2023.11.24-01.10.00:774][181]LogWorld: Bringing up level for play took: 0.113666
+[2023.11.24-01.10.00:776][181]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.11.24-01.10.00:813][181]PIE: Server logged in
+[2023.11.24-01.10.00:813][181]PIE: Play in editor total start time 0,484 seconds.
+[2023.11.24-01.10.11:005][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.10.11:005][783]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.10.11:006][783]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.10.11:022][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.10.11:028][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.24-01.10.11:038][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.10.11:094][783]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.24-01.10.11:103][783]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.11.24-01.10.11:105][783]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.11.24-01.10.11:108][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.10.11:129][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.11.24-01.10.11:175][784]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.11.24-01.10.13:750][934]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.10.13:860][934]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.11.24-01.10.14:515][934]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.11.24-01.10.14:516][934]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/ThirdPersonMap8F77613146AD599365698E8435BCAB40.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2023.11.24-01.10.14:535][934]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.735
+[2023.11.24-01.10.14:541][934]LogFileHelpers: InternalPromptForCheckoutAndSave took 790 ms (total: 2.54 sec)
+[2023.11.24-01.10.14:552][934]AssetCheck: New page: Asset Save: ThirdPersonMap
+[2023.11.24-01.10.14:552][934]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.11.24-01.13.43:018][653]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2023.11.24-01.13.43:025][653]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.11.24-01.13.43:032][653]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.11.24-01.13.43:046][654]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.11.24-01.14.00:635][710]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WP_interactionPrompt
+[2023.11.24-01.14.00:641][710]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.11.24-01.14.07:466][114]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WP_interactionPrompt.WP_interactionPrompt
+[2023.11.24-01.14.07:466][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.14.07:475][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.14.08:001][114]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-01.14.08:002][114]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-01.14.11:745][330]LogSlate: Window 'WP_interactionPrompt' being destroyed
+[2023.11.24-01.14.18:774][750]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.14.18:774][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.14.18:785][750]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.14.18:785][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.14.20:216][834]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WP_interactionPrompt.WP_interactionPrompt
+[2023.11.24-01.14.20:217][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.14.20:223][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.14.20:685][834]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-01.14.20:685][834]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-01.15.37:233][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.15.37:341][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WP_interactionPrompt" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_interactionPrompt.uasset" SILENT=true
+[2023.11.24-01.15.37:344][948]LogSavePackage: Moving output files for package: /Game/UI/WP_interactionPrompt
+[2023.11.24-01.15.37:344][948]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/WP_interactionPrompt809BC2FD4FF3C2152B9879B71D4C1277.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_interactionPrompt.uasset'
+[2023.11.24-01.15.37:353][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 2.66 sec)
+[2023.11.24-01.15.37:364][948]AssetCheck: New page: Asset Save: WP_interactionPrompt
+[2023.11.24-01.15.37:364][948]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WP_interactionPrompt.WP_interactionPrompt
+[2023.11.24-01.15.37:627][963]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.15.37:686][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WP_interactionPrompt" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_interactionPrompt.uasset" SILENT=true
+[2023.11.24-01.15.37:688][963]LogSavePackage: Moving output files for package: /Game/UI/WP_interactionPrompt
+[2023.11.24-01.15.37:688][963]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/WP_interactionPrompt49A67E2041EA620D798DAD8528FD00C9.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_interactionPrompt.uasset'
+[2023.11.24-01.15.37:694][963]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 2.72 sec)
+[2023.11.24-01.15.37:703][963]AssetCheck: New page: Asset Save: WP_interactionPrompt
+[2023.11.24-01.15.37:703][963]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WP_interactionPrompt.WP_interactionPrompt
+[2023.11.24-01.15.38:234][993]BlueprintLog: New page: Compile WP_interactionPrompt
+[2023.11.24-01.15.38:339][993]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2023.11.24-01.20.14:466][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.11.24-01.20.14:467][874]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.069
+[2023.11.24-01.20.14:467][874]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mission/mission_point] ([1] browsable assets)...
+[2023.11.24-01.20.14:478][874]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Mission/mission_point.mission_point]
+[2023.11.24-01.20.14:478][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mission/mission_point]
+[2023.11.24-01.20.14:481][874]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Mission/mission_point_Auto2
+[2023.11.24-01.20.14:481][874]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/mission_point_Auto2E76A0D3C42CA2BD7BF5BD8AC76980B87.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Autosaves/Game/Mission/mission_point_Auto2.uasset'
+[2023.11.24-01.20.14:482][874]LogFileHelpers: Auto-saving content packages took 0.015
+[2023.11.24-01.23.15:099][ 82]LogSlate: Window 'WP_interactionPrompt' being destroyed
+[2023.11.24-01.23.30:913][904]LogInterchangeEngine: [Pending] Importing
+[2023.11.24-01.23.37:236][905]LogInterchangeEngine: [Pending] Importing
+[2023.11.24-01.23.37:262][905]LogInterchangeImport: JPEG file [C:/Users/pipet/Downloads/F_Mesa de trabajo 1.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.11.24-01.23.37:350][906]LogTexture: Display: Building textures: /Game/UI/F_Mesa_de_trabajo_1.F_Mesa_de_trabajo_1 (TFO_AutoDXT, 1080x1080 x1x1x1) (Required Memory Estimate: 106.739746 MB), EncodeSpeed: Fast
+[2023.11.24-01.23.37:609][906]LogInterchangeEngine: [Success] Import Done
+[2023.11.24-01.23.37:642][907]LogInterchangeEngine: [Success] Import Done
+[2023.11.24-01.23.48:448][511]LogSlate: Took 0.064267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.11.24-01.24.08:432][680]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-01.24.08:432][680]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-01.24.10:979][829]LogEditorTransaction: Undo Create Binding
+[2023.11.24-01.24.21:832][450]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.24-01.26.34:041][600]BlueprintLog: New page: Compile WP_interactionPrompt
+[2023.11.24-01.26.34:132][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2023.11.24-01.26.34:137][600]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.26.34:191][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WP_interactionPrompt" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_interactionPrompt.uasset" SILENT=true
+[2023.11.24-01.26.34:193][600]LogSavePackage: Moving output files for package: /Game/UI/WP_interactionPrompt
+[2023.11.24-01.26.34:193][600]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/WP_interactionPrompt89F64A1D485FB3B5D20E179E05121281.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_interactionPrompt.uasset'
+[2023.11.24-01.26.34:200][600]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 2.79 sec)
+[2023.11.24-01.26.34:209][600]AssetCheck: New page: Asset Save: WP_interactionPrompt
+[2023.11.24-01.26.34:209][600]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WP_interactionPrompt.WP_interactionPrompt
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Total job queries 225, among them cache hits 18 (8.00%)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Tracking 207 distinct input hashes that result in 95 distinct outputs (45.89%)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: RAM used: 1.31 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.16%
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Job execution time: average 1.35 s, max 1.45 s
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Job life time (pending + execution): average 1.45 s, max 1.55
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.55 s
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Average processing rate: 2.58 jobs/sec
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Total thread time: 2.70 s
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Total thread preprocess time: 0.32 s
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Percentage time preprocessing: 11.97%
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Effective parallelization: 1.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.74 sec, max 0.74 sec, min 0.74 sec)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.73% of total time (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.34% of total time (compiled    1 times, average 0.74 sec, max 0.74 sec, min 0.74 sec)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display:                                                 FLumenCardVS - 25.45% of total time (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 18.47% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.11.24-01.27.18:077][991]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.28.23:623][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.11.24-01.28.26:369][989]Cmd: TRANSACTION UNDO
+[2023.11.24-01.28.26:369][989]LogEditorTransaction: Undo Clicking on Elements
+[2023.11.24-01.28.29:178][129]LogContentBrowser: Deferred new asset file creation: Ai_Tame1
+[2023.11.24-01.28.29:217][129]LogContentBrowser: Creating deferred item: Ai_Tame1
+[2023.11.24-01.28.29:229][130]LogContentBrowser: Renaming the item being created (Deferred Item: Ai_Tame1).
+[2023.11.24-01.28.31:122][244]LogContentBrowser: Attempting asset rename: Ai_Tame1 -> Ai_Tame1
+[2023.11.24-01.28.31:191][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.11.24-01.28.31:202][244]LogContentBrowser: End creating deferred item Ai_Tame1
+[2023.11.24-01.28.37:368][605]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fauna/BP/Ai_Tame1.Ai_Tame1
+[2023.11.24-01.28.37:368][605]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.28.51:132][330]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.28.51:132][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.28.54:581][529]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fauna/BP/Ai_Tame1.Ai_Tame1
+[2023.11.24-01.28.54:581][529]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.28.56:583][529]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.11.24-01.29.14:115][529]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [9970ms] waiting for h/w. InstanceID=1
+[2023.11.24-01.29.14:116][529]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049505s
+[2023.11.24-01.29.14:586][529]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.005045s (0.516893s overbudget)
+[2023.11.24-01.29.14:605][529]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=11704
+[2023.11.24-01.29.14:679][530]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ecc87d27-afe4-46d9-9025-05a798549454}, Name=Auriculares (WF-XB700)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=35.11
+[2023.11.24-01.29.14:679][530]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.24-01.29.14:681][530]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.24-01.29.19:702][829]LogViewport: Scene viewport resized to 1230x869, mode Windowed.
+[2023.11.24-01.29.32:734][609]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.29.32:734][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.29.43:809][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.24-01.29.43:809][777]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.29.43:809][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.29.48:565][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.11.24-01.29.49:816][ 42]LogSlate: Window 'Delete Assets' being destroyed
+[2023.11.24-01.29.50:013][ 42]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Fauna/BP/Ai_Tame1.Ai_Tame1
+	Asset Type: Blueprint
+[2023.11.24-01.29.50:696][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.11.24-01.29.50:790][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.24-01.29.50:839][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.11.24-01.29.50:887][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.11.24-01.29.57:298][395]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.11.24-01.29.57:336][395]LogContentBrowser: Creating deferred item: NewFolder
+[2023.11.24-01.29.57:346][396]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.11.24-01.30.07:106][982]LogContentBrowser: Attempting asset rename: NewFolder -> Collectable_BP
+[2023.11.24-01.30.07:107][982]LogContentBrowser: End creating deferred item NewFolder
+[2023.11.24-01.30.12:287][161]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.11.24-01.30.12:293][161]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.11.24-01.30.12:299][161]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.11.24-01.30.12:328][163]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.11.24-01.30.27:907][ 98]LogContentBrowser: Attempting asset rename: NewBlueprint -> AI_Tame_Collectable
+[2023.11.24-01.30.27:912][ 98]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.11.24-01.30.28:116][110]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable
+[2023.11.24-01.30.28:117][110]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.30.28:633][110]LogViewport: Scene viewport resized to 1230x869, mode Windowed.
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: Total job queries 230, among them cache hits 18 (7.83%)
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: Tracking 212 distinct input hashes that result in 96 distinct outputs (45.28%)
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: RAM used: 1.34 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.16%
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: Job execution time: average 1.35 s, max 1.45 s
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: Job life time (pending + execution): average 1.45 s, max 1.55
+[2023.11.24-01.31.31:591][743]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.55 s
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display: Average processing rate: 2.58 jobs/sec
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display: Total thread time: 2.70 s
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display: Total thread preprocess time: 0.32 s
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display: Percentage time preprocessing: 11.97%
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display: Effective parallelization: 1.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.74 sec, max 0.74 sec, min 0.74 sec)
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.73% of total time (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.34% of total time (compiled    1 times, average 0.74 sec, max 0.74 sec, min 0.74 sec)
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display:                                                 FLumenCardVS - 25.45% of total time (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 18.47% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.11.24-01.31.31:592][743]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.32.29:120][888]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fauna/BP/Ai_Tame.Ai_Tame
+[2023.11.24-01.32.29:120][888]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.32.31:260][981]LogViewport: Scene viewport resized to 1230x869, mode Windowed.
+[2023.11.24-01.33.19:756][848]LogEditorTransaction: Undo Add Component
+[2023.11.24-01.33.46:763][417]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2023.11.24-01.33.46:800][417]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.33.46:801][417]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.33.46:801][417]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.34.30:912][988]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Fauna/Modelo1.Modelo1
+[2023.11.24-01.34.31:092][988]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.34.31:193][988]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Total job queries 249, among them cache hits 18 (7.23%)
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Tracking 231 distinct input hashes that result in 110 distinct outputs (47.62%)
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: RAM used: 1.46 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.18%
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Shaders Compiled: 15
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Jobs assigned 15, completed 15 (100.00%)
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Average time worker was idle: 803.68 s
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Time job spent in pending queue: average 0.22 s, longest 1.15 s
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Job execution time: average 1.34 s, max 2.01 s
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Job life time (pending + execution): average 1.56 s, max 2.08
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.48 s
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Jobs were issued in 15 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Average processing rate: 3.35 jobs/sec
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Total thread time: 10.00 s
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Total thread preprocess time: 0.77 s
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Percentage time preprocessing: 7.72%
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Effective parallelization: 2.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.24-01.34.32:388][988]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.99 sec, max 1.23 sec, min 0.74 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.96 sec, max 1.15 sec, min 0.78 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.84 sec, max 1.00 sec, min 0.69 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.70% of total time (compiled    2 times, average 0.99 sec, max 1.23 sec, min 0.74 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.22% of total time (compiled    2 times, average 0.96 sec, max 1.15 sec, min 0.78 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.87% of total time (compiled    2 times, average 0.84 sec, max 1.00 sec, min 0.69 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 11.92% of total time (compiled    2 times, average 0.60 sec, max 0.69 sec, min 0.50 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 10.79% of total time (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2023.11.24-01.34.32:389][988]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.34.32:607][988]LogViewport: Scene viewport resized to 1141x858, mode Windowed.
+[2023.11.24-01.34.36:172][180]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.34.36:172][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.35.25:975][ 37]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.24-01.35.25:988][ 37]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.11.24-01.35.25:988][ 37]LogPlayLevel: [PlayLevel] Compiling AI_Tame_Collectable before play...
+[2023.11.24-01.35.26:032][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.35.26:105][ 37]LogSavePackage: Moving output files for package: /Game/Fauna/Collectable_BP/AI_Tame_Collectable
+[2023.11.24-01.35.26:105][ 37]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/AI_Tame_Collectable611D9E7C4E1E59F2815E7E98DB942252.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/Collectable_BP/AI_Tame_Collectable.uasset'
+[2023.11.24-01.35.26:112][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 2.87 sec)
+[2023.11.24-01.35.26:213][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.11.24-01.35.26:215][ 37]LogPlayLevel: PlayLevel: Blueprint regeneration took 227 ms (1 blueprints)
+[2023.11.24-01.35.26:216][ 37]PIE: New page: PIE session: ThirdPersonMap (23/11/2023, 3:35:26 p. m.)
+[2023.11.24-01.35.26:216][ 37]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.35.26:486][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.271403s)
+[2023.11.24-01.35.26:486][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.271434s)
+[2023.11.24-01.35.26:487][ 37]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.35.26:487][ 37]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.24-01.35.26:488][ 37]LogPlayLevel: PIE: World Init took: (0.001798s)
+[2023.11.24-01.35.26:564][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.11.24-01.35.26:567][ 37]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.11.24-01.35.26:567][ 37]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.24-01.35.26:567][ 37]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.24-01.35.26:567][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.24-01.35.26:567][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.24-01.35.26:567][ 37]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.24-01.35.26:567][ 37]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.24-01.35.26:567][ 37]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.24-01.35.26:567][ 37]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.24-01.35.26:568][ 37]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.24-01.35.26:568][ 37]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.24-01.35.26:568][ 37]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.24-01.35.26:570][ 37]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.24-01.35.26:609][ 37]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (WF-XB700)
+[2023.11.24-01.35.26:609][ 37]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.24-01.35.26:609][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.24-01.35.26:609][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.24-01.35.26:610][ 37]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.11.24-01.35.26:610][ 37]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.11.24-01.35.26:612][ 37]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.11.24-01.35.26:612][ 37]LogInit: FAudioDevice initialized.
+[2023.11.24-01.35.26:612][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.11.24-01.35.26:612][ 37]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2023.11.24-01.35.26:616][ 37]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.24-01.35.26:726][ 37]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.11.23-20.35.26
+[2023.11.24-01.35.26:728][ 37]LogWorld: Bringing up level for play took: 0.112737
+[2023.11.24-01.35.26:731][ 37]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.11.24-01.35.26:735][ 37]PIE: Server logged in
+[2023.11.24-01.35.26:735][ 37]PIE: Play in editor total start time 0,753 seconds.
+[2023.11.24-01.35.26:836][ 38]AssetCheck: New page: Asset Save: AI_Tame_Collectable
+[2023.11.24-01.35.26:836][ 38]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable
+[2023.11.24-01.36.10:895][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.36.10:895][671]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.36.10:897][671]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.36.10:913][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.36.10:920][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.24-01.36.10:930][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.36.10:999][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.36.11:005][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.24-01.36.11:006][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.24-01.36.11:042][671]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.11.24-01.36.11:138][672]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.11.24-01.36.28:618][680]LogViewport: Scene viewport resized to 1230x867, mode Windowed.
+[2023.11.24-01.36.47:412][766]BlueprintLog: New page: Compile Ai_Tame
+[2023.11.24-01.36.47:598][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.11.24-01.36.47:615][766]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.36.47:687][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fauna/BP/Ai_Tame" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame.uasset" SILENT=true
+[2023.11.24-01.36.47:692][766]LogSavePackage: Moving output files for package: /Game/Fauna/BP/Ai_Tame
+[2023.11.24-01.36.47:692][766]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Ai_TameA8A3B14B43E63322BE90158E34E6496E.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame.uasset'
+[2023.11.24-01.36.47:699][766]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 2.95 sec)
+[2023.11.24-01.36.47:708][766]AssetCheck: New page: Asset Save: Ai_Tame
+[2023.11.24-01.36.47:708][766]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/BP/Ai_Tame.Ai_Tame
+[2023.11.24-01.36.50:679][933]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fauna/BP/Ai_Tame2.Ai_Tame2
+[2023.11.24-01.36.50:680][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.36.54:203][102]LogViewport: Scene viewport resized to 1230x869, mode Windowed.
+[2023.11.24-01.37.23:646][831]BlueprintLog: New page: Compile Ai_Tame
+[2023.11.24-01.37.23:839][831]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.11.24-01.37.23:857][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.37.23:923][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fauna/BP/Ai_Tame" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame.uasset" SILENT=true
+[2023.11.24-01.37.23:929][831]LogSavePackage: Moving output files for package: /Game/Fauna/BP/Ai_Tame
+[2023.11.24-01.37.23:929][831]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Ai_Tame08B3F6DC4281B238C17ACC9BF60C94C2.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame.uasset'
+[2023.11.24-01.37.23:936][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 3.03 sec)
+[2023.11.24-01.37.23:945][831]AssetCheck: New page: Asset Save: Ai_Tame
+[2023.11.24-01.37.23:945][831]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/BP/Ai_Tame.Ai_Tame
+[2023.11.24-01.37.31:785][280]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.37.31:786][280]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.37.31:786][280]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.38.10:385][536]BlueprintLog: New page: Compile Ai_Tame
+[2023.11.24-01.38.10:582][536]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.11.24-01.38.10:602][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.38.10:664][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fauna/BP/Ai_Tame" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame.uasset" SILENT=true
+[2023.11.24-01.38.10:670][536]LogSavePackage: Moving output files for package: /Game/Fauna/BP/Ai_Tame
+[2023.11.24-01.38.10:670][536]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Ai_Tame8BB3ABFC4C287CCCD8224AB5F77276A7.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame.uasset'
+[2023.11.24-01.38.10:677][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 3.10 sec)
+[2023.11.24-01.38.10:687][536]AssetCheck: New page: Asset Save: Ai_Tame
+[2023.11.24-01.38.10:687][536]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/BP/Ai_Tame.Ai_Tame
+[2023.11.24-01.38.15:703][822]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.38.15:703][822]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.38.15:703][822]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.38.18:610][986]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Fauna/Modelo1_Anim.Modelo1_Anim
+[2023.11.24-01.38.21:426][152]BlueprintLog: New page: Compile Ai_Tame2
+[2023.11.24-01.38.21:561][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.11.24-01.38.21:577][152]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.38.21:656][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fauna/BP/Ai_Tame2" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame2.uasset" SILENT=true
+[2023.11.24-01.38.21:661][152]LogSavePackage: Moving output files for package: /Game/Fauna/BP/Ai_Tame2
+[2023.11.24-01.38.21:661][152]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Ai_Tame26D47B401476EC67C52C1F097D0F182C5.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame2.uasset'
+[2023.11.24-01.38.21:667][152]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 3.19 sec)
+[2023.11.24-01.38.21:676][152]AssetCheck: New page: Asset Save: Ai_Tame2
+[2023.11.24-01.38.21:676][152]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/BP/Ai_Tame2.Ai_Tame2
+[2023.11.24-01.38.23:962][279]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fauna/BP/AI_Tame3.AI_Tame3
+[2023.11.24-01.38.23:962][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.38.25:851][354]LogViewport: Scene viewport resized to 1230x869, mode Windowed.
+[2023.11.24-01.38.27:101][422]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.38.27:102][422]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.38.27:102][422]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.38.30:545][619]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Fauna/Modelo3_Anim.Modelo3_Anim
+[2023.11.24-01.38.37:614][ 34]BlueprintLog: New page: Compile AI_Tame3
+[2023.11.24-01.38.37:787][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2023.11.24-01.38.37:804][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.38.37:886][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fauna/BP/AI_Tame3" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/AI_Tame3.uasset" SILENT=true
+[2023.11.24-01.38.37:891][ 34]LogSavePackage: Moving output files for package: /Game/Fauna/BP/AI_Tame3
+[2023.11.24-01.38.37:892][ 34]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/AI_Tame397E889DD486774C8E0DEFFB423EFAA80.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/AI_Tame3.uasset'
+[2023.11.24-01.38.37:898][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 3.29 sec)
+[2023.11.24-01.38.37:908][ 34]AssetCheck: New page: Asset Save: AI_Tame3
+[2023.11.24-01.38.37:908][ 34]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/BP/AI_Tame3.AI_Tame3
+[2023.11.24-01.38.53:421][948]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.38.53:421][948]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.38.53:421][948]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.39.32:439][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2023.11.24-01.39.33:189][897]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/ThirdPersonMap_Auto3
+[2023.11.24-01.39.33:189][897]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/ThirdPersonMap_Auto3BBCFA0464095E04C785B8C89AE864D52.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Autosaves/Game/ThirdPerson/Maps/ThirdPersonMap_Auto3.umap'
+[2023.11.24-01.39.33:204][897]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.849
+[2023.11.24-01.39.33:204][897]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.849
+[2023.11.24-01.39.33:204][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/F_Mesa_de_trabajo_1] ([1] browsable assets)...
+[2023.11.24-01.39.33:208][897]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI/F_Mesa_de_trabajo_1.F_Mesa_de_trabajo_1]
+[2023.11.24-01.39.33:208][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/F_Mesa_de_trabajo_1]
+[2023.11.24-01.39.33:209][897]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/F_Mesa_de_trabajo_1_Auto3
+[2023.11.24-01.39.33:209][897]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/F_Mesa_de_trabajo_1_Auto336684B7944CB685741D689BD80B9134D.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Autosaves/Game/UI/F_Mesa_de_trabajo_1_Auto3.uasset'
+[2023.11.24-01.39.33:210][897]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Fauna/BP/Ai_Tame_2] ([2] browsable assets)...
+[2023.11.24-01.39.33:225][897]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Fauna/BP/Ai_Tame_2.Ai_Tame_2]
+[2023.11.24-01.39.33:254][897]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Fauna/BP/Ai_Tame_2.Ai_Tame_2_C]
+[2023.11.24-01.39.33:254][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fauna/BP/Ai_Tame_2]
+[2023.11.24-01.39.33:259][897]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fauna/BP/Ai_Tame_2_Auto3
+[2023.11.24-01.39.33:259][897]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Ai_Tame_2_Auto344B025DE42D3270CE4EE319794287D62.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Autosaves/Game/Fauna/BP/Ai_Tame_2_Auto3.uasset'
+[2023.11.24-01.39.33:284][897]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Fauna/Collectable_BP/AI_Tame_Collectable] ([2] browsable assets)...
+[2023.11.24-01.39.33:293][897]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable]
+[2023.11.24-01.39.33:293][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fauna/Collectable_BP/AI_Tame_Collectable]
+[2023.11.24-01.39.33:296][897]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fauna/Collectable_BP/AI_Tame_Collectable_Auto3
+[2023.11.24-01.39.33:296][897]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/AI_Tame_Collectable_Auto36C17C85A46CE105D45AC0D8F311B8A43.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Autosaves/Game/Fauna/Collectable_BP/AI_Tame_Collectable_Auto3.uasset'
+[2023.11.24-01.39.33:297][897]LogFileHelpers: Auto-saving content packages took 0.093
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Total job queries 263, among them cache hits 18 (6.84%)
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Tracking 236 distinct input hashes that result in 113 distinct outputs (47.88%)
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: RAM used: 1.48 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.18%
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Shaders Compiled: 20
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Jobs assigned 28, completed 20 (71.43%)
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Average time worker was idle: 478.88 s
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Time job spent in pending queue: average 0.17 s, longest 1.15 s
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Job execution time: average 1.27 s, max 2.01 s
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Job life time (pending + execution): average 1.44 s, max 2.08
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.82 s
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Jobs were issued in 28 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Average processing rate: 2.93 jobs/sec
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Total thread time: 13.73 s
+[2023.11.24-01.39.50:067][791]LogShaderCompilers: Display: Total thread preprocess time: 1.05 s
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display: Percentage time preprocessing: 7.64%
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display: Effective parallelization: 2.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.96 sec, max 1.23 sec, min 0.74 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.91 sec, max 1.15 sec, min 0.78 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.82 sec, max 1.00 sec, min 0.69 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.93% of total time (compiled    3 times, average 0.96 sec, max 1.23 sec, min 0.74 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.97% of total time (compiled    3 times, average 0.91 sec, max 1.15 sec, min 0.78 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.88% of total time (compiled    3 times, average 0.82 sec, max 1.00 sec, min 0.69 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 17.72% of total time (compiled    4 times, average 0.61 sec, max 0.69 sec, min 0.50 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 7.86% of total time (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2023.11.24-01.39.50:068][791]LogShaderCompilers: Display: ================================================
+[2023.11.24-01.40.24:162][945]BlueprintLog: New page: Compile AI_Tame_Collectable
+[2023.11.24-01.40.24:276][945]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.11.24-01.40.24:291][945]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.40.24:373][945]LogSavePackage: Moving output files for package: /Game/Fauna/Collectable_BP/AI_Tame_Collectable
+[2023.11.24-01.40.24:373][945]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/AI_Tame_Collectable0E253B3041F6EDE46C0164AA13810B32.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/Collectable_BP/AI_Tame_Collectable.uasset'
+[2023.11.24-01.40.24:380][945]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 3.38 sec)
+[2023.11.24-01.40.24:390][945]AssetCheck: New page: Asset Save: AI_Tame_Collectable
+[2023.11.24-01.40.24:390][945]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable
+[2023.11.24-01.42.43:942][750]BlueprintLog: New page: Compile WP_interactionPrompt
+[2023.11.24-01.42.44:095][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2023.11.24-01.42.44:140][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.42.44:215][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WP_interactionPrompt" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_interactionPrompt.uasset" SILENT=true
+[2023.11.24-01.42.44:218][750]LogSavePackage: Moving output files for package: /Game/UI/WP_interactionPrompt
+[2023.11.24-01.42.44:218][750]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/WP_interactionPrompt3FBFB0F4482AF5953E26B5860F75968C.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_interactionPrompt.uasset'
+[2023.11.24-01.42.44:225][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 3.46 sec)
+[2023.11.24-01.42.44:241][750]AssetCheck: New page: Asset Save: WP_interactionPrompt
+[2023.11.24-01.42.44:241][750]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WP_interactionPrompt.WP_interactionPrompt
+[2023.11.24-01.43.37:768][490]BlueprintLog: New page: Compile AI_Tame_Collectable
+[2023.11.24-01.43.37:894][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.11.24-01.43.37:909][490]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.43.37:963][490]LogSavePackage: Moving output files for package: /Game/Fauna/Collectable_BP/AI_Tame_Collectable
+[2023.11.24-01.43.37:964][490]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/AI_Tame_CollectableD06D1CFB416E6C24BCE177AE731F4438.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/Collectable_BP/AI_Tame_Collectable.uasset'
+[2023.11.24-01.43.37:973][490]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 3.52 sec)
+[2023.11.24-01.43.37:982][490]AssetCheck: New page: Asset Save: AI_Tame_Collectable
+[2023.11.24-01.43.37:982][490]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable
+[2023.11.24-01.43.44:361][714]BlueprintLog: New page: Compile AI_Tame_Collectable
+[2023.11.24-01.43.44:473][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2023.11.24-01.43.44:621][716]LogDerivedDataCache: C:/Users/pipet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:15.217 and deleted 0 files with total size 0 MiB. Scanned 8314 files in 8203 folders with total size 450 MiB.
+[2023.11.24-01.43.45:040][740]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.43.45:109][740]LogSavePackage: Moving output files for package: /Game/Fauna/Collectable_BP/AI_Tame_Collectable
+[2023.11.24-01.43.45:110][740]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/AI_Tame_Collectable39FDE77744DD32EABC2E499726277321.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/Collectable_BP/AI_Tame_Collectable.uasset'
+[2023.11.24-01.43.45:116][740]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 3.60 sec)
+[2023.11.24-01.43.45:127][740]AssetCheck: New page: Asset Save: AI_Tame_Collectable
+[2023.11.24-01.43.45:127][740]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable
+[2023.11.24-01.45.35:905][295]BlueprintLog: New page: Compile AI_Tame_Collectable
+[2023.11.24-01.45.36:025][295]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2023.11.24-01.45.36:042][295]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.45.36:117][295]LogSavePackage: Moving output files for package: /Game/Fauna/Collectable_BP/AI_Tame_Collectable
+[2023.11.24-01.45.36:117][295]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/AI_Tame_Collectable78987266447AB8F1024F43BCD1C58A8C.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/Collectable_BP/AI_Tame_Collectable.uasset'
+[2023.11.24-01.45.36:123][295]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 3.68 sec)
+[2023.11.24-01.45.36:133][295]AssetCheck: New page: Asset Save: AI_Tame_Collectable
+[2023.11.24-01.45.36:133][295]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable
+[2023.11.24-01.45.37:035][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.45.37:085][344]LogSavePackage: Moving output files for package: /Game/Fauna/Collectable_BP/AI_Tame_Collectable
+[2023.11.24-01.45.37:085][344]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/AI_Tame_CollectableBB716CB94291E61BFD1CAAB4D4FEACDB.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/Collectable_BP/AI_Tame_Collectable.uasset'
+[2023.11.24-01.45.37:092][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 3.74 sec)
+[2023.11.24-01.45.37:101][344]AssetCheck: New page: Asset Save: AI_Tame_Collectable
+[2023.11.24-01.45.37:101][344]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable
+[2023.11.24-01.46.06:860][208]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable_C
+[2023.11.24-01.46.06:860][208]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable_C
+[2023.11.24-01.46.06:864][208]LogActorFactory: Actor Factory spawned Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable as actor: AI_Tame_Collectable_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.AI_Tame_Collectable_C_0
+[2023.11.24-01.46.06:866][208]LogActorFactory: Actor Factory spawned Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable as actor: AI_Tame_Collectable_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.AI_Tame_Collectable_C_0
+[2023.11.24-01.46.06:884][209]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.11.24-01.46.09:985][324]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable_C
+[2023.11.24-01.46.09:985][324]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable_C
+[2023.11.24-01.46.09:992][324]LogActorFactory: Actor Factory spawned Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable as actor: AI_Tame_Collectable_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.AI_Tame_Collectable_C_1
+[2023.11.24-01.46.09:996][324]LogActorFactory: Actor Factory spawned Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable as actor: AI_Tame_Collectable_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.AI_Tame_Collectable_C_1
+[2023.11.24-01.46.27:579][364]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.24-01.46.27:589][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.24-01.46.27:589][364]PIE: New page: PIE session: ThirdPersonMap (23/11/2023, 3:46:27 p. m.)
+[2023.11.24-01.46.27:589][364]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.46.27:823][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.234171s)
+[2023.11.24-01.46.27:823][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.234201s)
+[2023.11.24-01.46.27:823][364]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.46.27:824][364]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.24-01.46.27:825][364]LogPlayLevel: PIE: World Init took: (0.001458s)
+[2023.11.24-01.46.27:920][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.11.24-01.46.27:922][364]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.11.24-01.46.27:922][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.24-01.46.27:922][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.24-01.46.27:922][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.24-01.46.27:922][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.24-01.46.27:922][364]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.24-01.46.27:922][364]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.24-01.46.27:922][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.24-01.46.27:922][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.24-01.46.27:923][364]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.24-01.46.27:923][364]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.24-01.46.27:923][364]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.24-01.46.27:925][364]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.24-01.46.27:960][364]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (WF-XB700)
+[2023.11.24-01.46.27:960][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.24-01.46.27:960][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.24-01.46.27:960][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.24-01.46.27:960][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.11.24-01.46.27:960][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.11.24-01.46.27:962][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.11.24-01.46.27:962][364]LogInit: FAudioDevice initialized.
+[2023.11.24-01.46.27:962][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.11.24-01.46.27:962][364]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonMap'.
+[2023.11.24-01.46.27:965][364]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.24-01.46.28:071][364]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.11.23-20.46.28
+[2023.11.24-01.46.28:074][364]LogWorld: Bringing up level for play took: 0.107981
+[2023.11.24-01.46.28:076][364]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.11.24-01.46.28:080][364]PIE: Server logged in
+[2023.11.24-01.46.28:080][364]PIE: Play in editor total start time 0,495 seconds.
+[2023.11.24-01.46.52:087][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.46.52:087][638]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.46.52:091][638]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.46.52:112][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.46.52:118][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.24-01.46.52:129][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.46.52:210][638]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.24-01.46.52:222][638]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.11.24-01.46.52:223][638]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.11.24-01.46.52:226][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.46.52:249][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2023.11.24-01.46.52:297][639]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.11.24-01.49.39:171][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.49.39:317][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.11.24-01.49.39:980][765]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.11.24-01.49.39:981][765]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/ThirdPersonMapE950F84C407B21E0A8B62CBD3A6A5211.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2023.11.24-01.49.40:001][765]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.776
+[2023.11.24-01.49.40:007][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 835 ms (total: 4.57 sec)
+[2023.11.24-01.49.40:018][765]AssetCheck: New page: Asset Save: ThirdPersonMap
+[2023.11.24-01.49.40:018][765]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.11.24-01.49.46:920][174]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/ThirdPerson/Input/Actions/IA_Collect.IA_Collect
+[2023.11.24-01.49.53:024][428]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/ThirdPerson/Input/IMC_Default.IMC_Default
+[2023.11.24-01.50.11:856][838]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2023.11.24-01.50.11:856][838]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.50.35:918][696]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.50.35:918][696]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.50.35:918][696]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-01.51.09:366][828]LogEditorTransaction: Undo Promote To Variable
+[2023.11.24-01.52.01:969][479]BlueprintLog: New page: Compile BP_ThirdPersonGameMode
+[2023.11.24-01.52.02:090][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.11.24-01.52.02:103][479]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-01.52.02:165][479]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2023.11.24-01.52.02:166][479]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/BP_ThirdPersonGameMode8088BEAD413DB06F46D7A8BE7B0BF5F0.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2023.11.24-01.52.02:172][479]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 4.64 sec)
+[2023.11.24-01.52.02:181][479]AssetCheck: New page: Asset Save: BP_ThirdPersonGameMode
+[2023.11.24-01.52.02:181][479]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2023.11.24-01.52.26:905][593]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.24-01.52.26:912][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.24-01.52.26:912][593]PIE: New page: PIE session: ThirdPersonMap (23/11/2023, 3:52:26 p. m.)
+[2023.11.24-01.52.26:912][593]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.52.27:148][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.235946s)
+[2023.11.24-01.52.27:148][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.235997s)
+[2023.11.24-01.52.27:148][593]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.52.27:149][593]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.24-01.52.27:150][593]LogPlayLevel: PIE: World Init took: (0.001409s)
+[2023.11.24-01.52.27:239][593]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2023.11.24-01.52.27:241][593]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.11.24-01.52.27:241][593]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.24-01.52.27:241][593]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.24-01.52.27:241][593]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.24-01.52.27:241][593]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.24-01.52.27:241][593]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.24-01.52.27:241][593]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.24-01.52.27:241][593]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.24-01.52.27:241][593]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.24-01.52.27:242][593]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.24-01.52.27:242][593]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.24-01.52.27:242][593]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.24-01.52.27:244][593]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.24-01.52.27:281][593]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (WF-XB700)
+[2023.11.24-01.52.27:281][593]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.24-01.52.27:281][593]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.24-01.52.27:281][593]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.24-01.52.27:282][593]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.11.24-01.52.27:282][593]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.11.24-01.52.27:282][593]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.11.24-01.52.27:282][593]LogInit: FAudioDevice initialized.
+[2023.11.24-01.52.27:282][593]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.11.24-01.52.27:282][593]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2023.11.24-01.52.27:321][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.52.27:322][593]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.24-01.52.27:437][593]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.11.23-20.52.27
+[2023.11.24-01.52.27:439][593]LogWorld: Bringing up level for play took: 0.116563
+[2023.11.24-01.52.27:441][593]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.11.24-01.52.27:444][593]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] 1
+[2023.11.24-01.52.27:445][593]PIE: Server logged in
+[2023.11.24-01.52.27:446][593]PIE: Play in editor total start time 0,534 seconds.
+[2023.11.24-01.52.27:508][593]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.11.24-01.52.41:595][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-01.52.41:595][429]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-01.52.41:597][429]LogSlate: Window 'Adventure_Map Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.24-01.52.41:604][429]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.52.41:623][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.52.41:630][429]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.24-01.52.41:641][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.52.41:740][429]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.24-01.52.41:740][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.24-01.52.41:742][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.24-01.52.41:767][429]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2023.11.24-01.52.41:794][430]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.11.24-01.52.49:126][863]LogViewport: Scene viewport resized to 1230x867, mode Windowed.
+[2023.11.24-01.53.24:416][953]BlueprintLog: New page: Compile AI_Tame_Collectable
+[2023.11.24-01.53.24:546][953]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.11.24-01.53.25:964][ 34]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.53.25:964][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.53.46:128][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.24-01.53.46:128][233]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.53.46:128][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.53.48:173][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.24-01.53.48:173][352]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.53.48:173][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.53.49:092][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.24-01.53.49:092][403]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-01.53.49:092][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-01.54.43:727][625]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2023.11.24-01.54.43:734][625]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.11.24-01.54.43:740][625]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.11.24-01.54.43:750][626]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.11.24-01.54.52:995][181]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WB_Collected
+[2023.11.24-01.54.53:001][181]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.11.24-01.54.55:185][308]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WB_Collected.WB_Collected
+[2023.11.24-01.54.55:185][308]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.54.55:192][308]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-01.54.55:659][308]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-01.54.55:659][308]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-01.56.07:908][781]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2023.11.24-01.56.08:325][781]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.080 s
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: === Handled ensure: ===
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: 
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: Ensure condition failed: ScopedTransaction != nullptr  [File:D:\build\++UE5\Sync\Engine\Source\Editor\UMGEditor\Private\Extensions\DesignerExtension.cpp] [Line: 67] 
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: 
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: Stack: 
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffc820d36b4 UnrealEditor-UMGEditor.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffc8211636f UnrealEditor-UMGEditor.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffc820d9be3 UnrealEditor-UMGEditor.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcc42e5093 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcc66ea30b UnrealEditor-Slate.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcc66ce7d3 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcc6736a6a UnrealEditor-Slate.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcc6725343 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcc671afec UnrealEditor-Slate.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcfabe19a2 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcfabc67d1 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcfabe4391 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcfabbff93 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffd40d98241 USER32.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffd40d97a8b USER32.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffc5e717243 InkObj.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffd2dcf10f2 atlthunk.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffd40d98241 USER32.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffd40d97d01 USER32.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffcfabe5849 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ff7c9da7332 UnrealEditor.exe!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ff7c9dc287d UnrealEditor.exe!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ff7c9dc296a UnrealEditor.exe!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ff7c9dc5680 UnrealEditor.exe!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ff7c9dd71b4 UnrealEditor.exe!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ff7c9dda516 UnrealEditor.exe!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffd417d257d KERNEL32.DLL!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: [Callstack] 0x00007ffd421eaa58 ntdll.dll!UnknownFunction []
+[2023.11.24-01.56.08:325][781]LogOutputDevice: Error: 
+[2023.11.24-01.56.08:331][781]LogStats:                SubmitErrorReport -  0.000 s
+[2023.11.24-01.56.09:611][781]LogStats:                    SendNewReport -  1.279 s
+[2023.11.24-01.56.09:611][781]LogStats:             FDebug::EnsureFailed -  1.703 s
+[2023.11.24-01.56.25:684][647]LogEditorTransaction: Undo Edit Top
+[2023.11.24-01.56.26:100][655]LogEditorTransaction: Undo Edit Left
+[2023.11.24-02.00.04:599][987]BlueprintLog: New page: Compile WB_Collected
+[2023.11.24-02.00.04:712][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.11.24-02.00.04:731][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.00.04:790][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_Collected" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WB_Collected.uasset" SILENT=true
+[2023.11.24-02.00.04:796][987]LogSavePackage: Moving output files for package: /Game/UI/WB_Collected
+[2023.11.24-02.00.04:796][987]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/WB_Collected9DBABA3140B71E42EFC60DBB0855DAAB.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WB_Collected.uasset'
+[2023.11.24-02.00.04:803][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 4.71 sec)
+[2023.11.24-02.00.04:813][987]AssetCheck: New page: Asset Save: WB_Collected
+[2023.11.24-02.00.04:813][987]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WB_Collected.WB_Collected
+[2023.11.24-02.00.45:987][230]BlueprintLog: New page: Compile WB_Collected
+[2023.11.24-02.00.46:087][230]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2023.11.24-02.00.46:096][230]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.00.46:152][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_Collected" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WB_Collected.uasset" SILENT=true
+[2023.11.24-02.00.46:158][230]LogSavePackage: Moving output files for package: /Game/UI/WB_Collected
+[2023.11.24-02.00.46:159][230]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/WB_Collected592A2C3E43BE4EECB7A40990E70D7DB1.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WB_Collected.uasset'
+[2023.11.24-02.00.46:166][230]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 4.78 sec)
+[2023.11.24-02.00.46:176][230]AssetCheck: New page: Asset Save: WB_Collected
+[2023.11.24-02.00.46:176][230]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WB_Collected.WB_Collected
+[2023.11.24-02.01.05:045][  7]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable
+[2023.11.24-02.01.05:046][  7]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-02.06.15:393][409]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-02.06.15:393][409]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-02.06.15:393][409]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.24-02.07.09:903][282]BlueprintLog: New page: Compile AI_Tame_Collectable
+[2023.11.24-02.07.10:028][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.11.24-02.07.10:065][282]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.07.10:149][282]LogSavePackage: Moving output files for package: /Game/Fauna/Collectable_BP/AI_Tame_Collectable
+[2023.11.24-02.07.10:149][282]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/AI_Tame_Collectable2F2021A446638FAE4C23598C559BEA0F.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/Collectable_BP/AI_Tame_Collectable.uasset'
+[2023.11.24-02.07.10:156][282]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 4.88 sec)
+[2023.11.24-02.07.10:167][282]AssetCheck: New page: Asset Save: AI_Tame_Collectable
+[2023.11.24-02.07.10:167][282]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/Collectable_BP/AI_Tame_Collectable.AI_Tame_Collectable
+[2023.11.24-02.07.12:187][398]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.07.12:320][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.11.24-02.07.12:960][398]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.11.24-02.07.12:960][398]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/ThirdPersonMapAB8671544B437D2CCB9B1DB33C98B781.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2023.11.24-02.07.12:979][398]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.738
+[2023.11.24-02.07.12:987][398]LogFileHelpers: InternalPromptForCheckoutAndSave took 800 ms (total: 5.68 sec)
+[2023.11.24-02.07.13:005][398]AssetCheck: New page: Asset Save: ThirdPersonMap
+[2023.11.24-02.07.13:005][398]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.11.24-02.07.16:716][617]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.24-02.07.16:722][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.24-02.07.16:722][617]PIE: New page: PIE session: ThirdPersonMap (23/11/2023, 4:07:16 p. m.)
+[2023.11.24-02.07.16:722][617]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-02.07.16:954][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.231006s)
+[2023.11.24-02.07.16:954][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.231035s)
+[2023.11.24-02.07.16:954][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-02.07.16:954][617]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.24-02.07.16:955][617]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2023.11.24-02.07.17:034][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.11.24-02.07.17:036][617]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.11.24-02.07.17:036][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.24-02.07.17:036][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.24-02.07.17:036][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.24-02.07.17:036][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.24-02.07.17:036][617]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.24-02.07.17:036][617]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.24-02.07.17:036][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.24-02.07.17:036][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.24-02.07.17:036][617]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.24-02.07.17:036][617]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.24-02.07.17:036][617]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.24-02.07.17:038][617]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.24-02.07.17:073][617]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (WF-XB700)
+[2023.11.24-02.07.17:073][617]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.24-02.07.17:073][617]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.24-02.07.17:073][617]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.24-02.07.17:073][617]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.11.24-02.07.17:073][617]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.11.24-02.07.17:075][617]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.11.24-02.07.17:075][617]LogInit: FAudioDevice initialized.
+[2023.11.24-02.07.17:076][617]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.11.24-02.07.17:076][617]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2023.11.24-02.07.17:079][617]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.24-02.07.17:184][617]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.11.23-21.07.17
+[2023.11.24-02.07.17:186][617]LogWorld: Bringing up level for play took: 0.107010
+[2023.11.24-02.07.17:187][617]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2023.11.24-02.07.17:191][617]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] 1
+[2023.11.24-02.07.17:192][617]PIE: Server logged in
+[2023.11.24-02.07.17:192][617]PIE: Play in editor total start time 0,47 seconds.
+[2023.11.24-02.07.32:655][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-02.07.32:655][428]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-02.07.32:657][428]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.07.32:674][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.07.32:689][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.24-02.07.32:699][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.07.32:785][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-02.07.32:785][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.24-02.07.32:786][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.24-02.07.32:811][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.11.24-02.07.32:891][429]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2023.11.24-02.07.49:348][584]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.11.24-02.07.49:354][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.07.49:410][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mission/mission_point" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/mission_point.uasset" SILENT=true
+[2023.11.24-02.07.49:414][584]LogSavePackage: Moving output files for package: /Game/Mission/mission_point
+[2023.11.24-02.07.49:414][584]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/mission_point301E69AD4C14006DEBB986B65A351CA4.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/mission_point.uasset'
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: ================================================
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Total job queries 280, among them cache hits 23 (8.21%)
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Tracking 257 distinct input hashes that result in 127 distinct outputs (49.42%)
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: RAM used: 1.63 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.20%
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Shaders Compiled: 41
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Jobs assigned 41, completed 41 (100.00%)
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Average time worker was idle: 697.22 s
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Time job spent in pending queue: average 0.28 s, longest 1.32 s
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Job execution time: average 1.23 s, max 2.01 s
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Job life time (pending + execution): average 1.51 s, max 2.08
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.79 s
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Jobs were issued in 41 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Average processing rate: 4.19 jobs/sec
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Total thread time: 29.89 s
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Total thread preprocess time: 2.09 s
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Percentage time preprocessing: 6.99%
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Effective parallelization: 3.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 1.10 sec, max 1.11 sec, min 1.08 sec)
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 1.03 sec, max 1.23 sec, min 0.74 sec)
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.98 sec, max 0.98 sec, min 0.98 sec)
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.97 sec, max 1.15 sec, min 0.78 sec)
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.72% of total time (compiled    4 times, average 1.03 sec, max 1.23 sec, min 0.74 sec)
+[2023.11.24-02.07.51:404][584]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.97% of total time (compiled    4 times, average 0.97 sec, max 1.15 sec, min 0.78 sec)
+[2023.11.24-02.07.51:405][584]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.68% of total time (compiled    4 times, average 0.87 sec, max 1.04 sec, min 0.69 sec)
+[2023.11.24-02.07.51:405][584]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.14% of total time (compiled    4 times, average 0.61 sec, max 0.69 sec, min 0.50 sec)
+[2023.11.24-02.07.51:405][584]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 7.34% of total time (compiled    2 times, average 1.10 sec, max 1.11 sec, min 1.08 sec)
+[2023.11.24-02.07.51:405][584]LogShaderCompilers: Display: ================================================
+[2023.11.24-02.07.51:415][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mission/Material_001" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/Material_001.uasset" SILENT=true
+[2023.11.24-02.07.51:416][584]LogSavePackage: Moving output files for package: /Game/Mission/Material_001
+[2023.11.24-02.07.51:417][584]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Material_001F488821746508B244F69C589F03B5B29.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/Material_001.uasset'
+[2023.11.24-02.07.51:417][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/F_Mesa_de_trabajo_1" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/F_Mesa_de_trabajo_1.uasset" SILENT=true
+[2023.11.24-02.07.51:418][584]LogSavePackage: Moving output files for package: /Game/UI/F_Mesa_de_trabajo_1
+[2023.11.24-02.07.51:418][584]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/F_Mesa_de_trabajo_12FBBA21F4E34A0C6DBDEFE852ED2DBA7.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/F_Mesa_de_trabajo_1.uasset'
+[2023.11.24-02.07.51:419][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fauna/BP/Ai_Tame_2" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame_2.uasset" SILENT=true
+[2023.11.24-02.07.51:424][584]LogSavePackage: Moving output files for package: /Game/Fauna/BP/Ai_Tame_2
+[2023.11.24-02.07.51:424][584]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/Ai_Tame_2586D3D7E40068D9B94E26087A63D9F7D.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Fauna/BP/Ai_Tame_2.uasset'
+[2023.11.24-02.07.51:432][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.07 sec (total: 7.75 sec)
+[2023.11.24-02.07.51:444][584]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.24-02.07.51:444][584]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Mission/Material_001.Material_001
+[2023.11.24-02.07.51:444][584]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Mission/mission_point.mission_point
+[2023.11.24-02.07.51:444][584]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/BP/Ai_Tame_2.Ai_Tame_2
+[2023.11.24-02.07.51:444][584]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI/F_Mesa_de_trabajo_1.F_Mesa_de_trabajo_1
