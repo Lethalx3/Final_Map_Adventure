@@ -2594,3 +2594,83 @@ Script Stack (0 frames) :
 [2023.11.24-02.07.51:444][584]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Mission/mission_point.mission_point
 [2023.11.24-02.07.51:444][584]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Fauna/BP/Ai_Tame_2.Ai_Tame_2
 [2023.11.24-02.07.51:444][584]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI/F_Mesa_de_trabajo_1.F_Mesa_de_trabajo_1
+[2023.11.24-02.15.32:689][742]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fauna/BP/Ai_Tame.Ai_Tame
+[2023.11.24-02.15.32:689][742]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-02.15.39:853][131]LogViewport: Scene viewport resized to 1230x867, mode Windowed.
+[2023.11.24-02.17.21:576][183]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WP_Mission.WP_Mission
+[2023.11.24-02.17.21:577][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-02.17.21:584][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-02.17.22:076][183]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-02.17.22:076][183]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-02.18.38:407][970]BlueprintLog: New page: Compile WP_Mission
+[2023.11.24-02.18.38:569][970]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.11.24-02.18.38:652][970]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.18.38:716][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WP_Mission" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_Mission.uasset" SILENT=true
+[2023.11.24-02.18.38:720][970]LogSavePackage: Moving output files for package: /Game/UI/WP_Mission
+[2023.11.24-02.18.38:720][970]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/WP_Mission96036C454E07A5FDBAE2CCA5500F3D7F.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_Mission.uasset'
+[2023.11.24-02.18.38:728][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 7.83 sec)
+[2023.11.24-02.18.38:752][970]AssetCheck: New page: Asset Save: WP_Mission
+[2023.11.24-02.18.38:752][970]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WP_Mission.WP_Mission
+[2023.11.24-02.18.40:536][ 71]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.24-02.18.40:544][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.24-02.18.40:544][ 71]PIE: New page: PIE session: ThirdPersonMap (23/11/2023, 4:18:40 p. m.)
+[2023.11.24-02.18.40:544][ 71]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-02.18.40:784][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.240118s)
+[2023.11.24-02.18.40:784][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.240149s)
+[2023.11.24-02.18.40:784][ 71]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-02.18.40:784][ 71]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.24-02.18.40:785][ 71]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2023.11.24-02.18.40:882][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.11.24-02.18.40:883][ 71]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.11.24-02.18.40:883][ 71]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.24-02.18.40:883][ 71]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.24-02.18.40:883][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.24-02.18.40:883][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.24-02.18.40:883][ 71]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.24-02.18.40:883][ 71]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.24-02.18.40:883][ 71]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.24-02.18.40:883][ 71]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.24-02.18.40:884][ 71]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.24-02.18.40:884][ 71]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.24-02.18.40:884][ 71]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.24-02.18.40:885][ 71]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.24-02.18.40:922][ 71]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (WF-XB700)
+[2023.11.24-02.18.40:922][ 71]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.24-02.18.40:922][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.24-02.18.40:922][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.24-02.18.40:922][ 71]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.11.24-02.18.40:922][ 71]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.11.24-02.18.40:925][ 71]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.11.24-02.18.40:925][ 71]LogInit: FAudioDevice initialized.
+[2023.11.24-02.18.40:925][ 71]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.11.24-02.18.40:925][ 71]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2023.11.24-02.18.40:972][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-02.18.40:972][ 71]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.24-02.18.41:084][ 71]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.11.23-21.18.41
+[2023.11.24-02.18.41:086][ 71]LogWorld: Bringing up level for play took: 0.113150
+[2023.11.24-02.18.41:088][ 71]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2023.11.24-02.18.41:092][ 71]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] 1
+[2023.11.24-02.18.41:094][ 71]PIE: Server logged in
+[2023.11.24-02.18.41:094][ 71]PIE: Play in editor total start time 0,55 seconds.
+[2023.11.24-02.18.41:169][ 71]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.11.24-02.19.11:052][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-02.19.11:052][852]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-02.19.11:054][852]LogSlate: Window 'Adventure_Map Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.24-02.19.11:061][852]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.19.11:079][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.19.11:089][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.24-02.19.11:101][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.19.11:200][852]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.24-02.19.11:200][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.24-02.19.11:202][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.24-02.19.11:229][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.11.24-02.19.11:263][853]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2023.11.24-02.19.33:858][787]BlueprintLog: New page: Compile WP_Mission
+[2023.11.24-02.19.33:974][787]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.11.24-02.19.34:030][787]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.19.34:098][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WP_Mission" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_Mission.uasset" SILENT=true
+[2023.11.24-02.19.34:102][787]LogSavePackage: Moving output files for package: /Game/UI/WP_Mission
+[2023.11.24-02.19.34:102][787]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/WP_MissionA2D08536474B6BA90A1B1BA83DE2E295.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/UI/WP_Mission.uasset'
+[2023.11.24-02.19.34:110][787]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 7.91 sec)
+[2023.11.24-02.19.34:130][787]AssetCheck: New page: Asset Save: WP_Mission
+[2023.11.24-02.19.34:130][787]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WP_Mission.WP_Mission
