@@ -2674,3 +2674,159 @@ Script Stack (0 frames) :
 [2023.11.24-02.19.34:110][787]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 7.91 sec)
 [2023.11.24-02.19.34:130][787]AssetCheck: New page: Asset Save: WP_Mission
 [2023.11.24-02.19.34:130][787]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WP_Mission.WP_Mission
+[2023.11.24-02.21.39:338][113]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.24-02.21.39:346][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.24-02.21.39:346][113]PIE: New page: PIE session: ThirdPersonMap (23/11/2023, 4:21:39 p. m.)
+[2023.11.24-02.21.39:372][113]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-02.21.39:643][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.270909s)
+[2023.11.24-02.21.39:643][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.270974s)
+[2023.11.24-02.21.39:643][113]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-02.21.39:643][113]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.24-02.21.39:644][113]LogPlayLevel: PIE: World Init took: (0.001540s)
+[2023.11.24-02.21.39:742][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.11.24-02.21.39:744][113]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.11.24-02.21.39:744][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.24-02.21.39:744][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.24-02.21.39:744][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.24-02.21.39:744][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.24-02.21.39:744][113]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.24-02.21.39:744][113]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.24-02.21.39:744][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.24-02.21.39:744][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.24-02.21.39:745][113]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.24-02.21.39:745][113]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.24-02.21.39:745][113]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.24-02.21.39:747][113]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.24-02.21.39:785][113]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (WF-XB700)
+[2023.11.24-02.21.39:785][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.24-02.21.39:785][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.24-02.21.39:785][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.24-02.21.39:786][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.11.24-02.21.39:786][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.11.24-02.21.39:788][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.11.24-02.21.39:788][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.11.24-02.21.39:788][113]LogInit: FAudioDevice initialized.
+[2023.11.24-02.21.39:788][113]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2023.11.24-02.21.39:791][113]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.24-02.21.39:907][113]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.11.23-21.21.39
+[2023.11.24-02.21.39:909][113]LogWorld: Bringing up level for play took: 0.117931
+[2023.11.24-02.21.39:911][113]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2023.11.24-02.21.39:915][113]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] 1
+[2023.11.24-02.21.39:916][113]PIE: Server logged in
+[2023.11.24-02.21.39:916][113]PIE: Play in editor total start time 0,571 seconds.
+[2023.11.24-02.23.27:628][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-02.23.27:628][553]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.24-02.23.27:630][553]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.23.27:664][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.23.27:676][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.24-02.23.27:694][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.23.27:803][553]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.24-02.23.27:812][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.24-02.23.27:813][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.24-02.23.27:817][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.24-02.23.27:844][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2023.11.24-02.23.27:908][554]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2023.11.24-02.26.02:086][157]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Mission/BP_Mission_Trigger.BP_Mission_Trigger
+[2023.11.24-02.26.02:087][157]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-02.27.46:202][675]BlueprintLog: New page: Compile WP_interactionPrompt
+[2023.11.24-02.27.46:351][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2023.11.24-02.27.47:575][732]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.27.47:575][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.27.47:588][732]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.27.47:588][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.27.49:566][837]LogViewport: Scene viewport resized to 1230x686, mode Windowed.
+[2023.11.24-02.27.51:177][931]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.11.24-02.27.51:391][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2023.11.24-02.27.51:555][932]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-02.27.57:770][302]LogViewport: Scene viewport resized to 1230x869, mode Windowed.
+[2023.11.24-02.28.00:071][440]BlueprintLog: New page: Compile BP_ThirdPersonGameMode
+[2023.11.24-02.28.00:256][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.11.24-02.28.01:036][480]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.28.01:036][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.28.10:087][  7]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.28.10:087][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.28.10:097][  7]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.28.10:097][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.28.13:844][227]BlueprintLog: New page: Compile AI_Tame_Collectable
+[2023.11.24-02.28.13:971][227]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.11.24-02.28.16:927][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.24-02.28.16:927][397]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.28.16:927][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.28.21:108][628]BlueprintLog: New page: Compile Ai_Tame
+[2023.11.24-02.28.21:278][628]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.11.24-02.28.22:383][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.24-02.28.22:383][688]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.28.22:383][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.28.33:800][357]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-02.28.33:800][357]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.24-02.28.37:122][550]BlueprintLog: New page: Compile WP_Mission
+[2023.11.24-02.28.37:189][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.11.24-02.28.38:300][603]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.28.38:300][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.28.38:310][603]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-02.28.38:310][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-02.28.56:141][655]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-02.28.56:174][657]BlueprintLog: New page: Compile BP_Mission_Trigger
+[2023.11.24-02.28.56:262][657]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2023.11.24-02.28.56:289][657]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.28.56:347][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mission/BP_Mission_Trigger" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/BP_Mission_Trigger.uasset" SILENT=true
+[2023.11.24-02.28.56:353][657]LogSavePackage: Moving output files for package: /Game/Mission/BP_Mission_Trigger
+[2023.11.24-02.28.56:353][657]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/BP_Mission_Trigger8D743C294913FB86000D279F7D7404A4.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/BP_Mission_Trigger.uasset'
+[2023.11.24-02.28.56:360][657]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 7.98 sec)
+[2023.11.24-02.28.56:370][657]AssetCheck: New page: Asset Save: BP_Mission_Trigger
+[2023.11.24-02.28.56:370][657]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Mission/BP_Mission_Trigger.BP_Mission_Trigger
+[2023.11.24-02.28.56:402][658]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-02.29.36:072][981]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-02.29.37:485][ 64]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-02.29.39:085][160]BlueprintLog: New page: Compile BP_Mission_Trigger
+[2023.11.24-02.29.39:172][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.11.24-02.29.39:196][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.29.39:266][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mission/BP_Mission_Trigger" FILE="../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/BP_Mission_Trigger.uasset" SILENT=true
+[2023.11.24-02.29.39:271][160]LogSavePackage: Moving output files for package: /Game/Mission/BP_Mission_Trigger
+[2023.11.24-02.29.39:271][160]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/BP_Mission_Trigger3D29292740902448A40F56AD17A916B9.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/Mission/BP_Mission_Trigger.uasset'
+[2023.11.24-02.29.39:280][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 8.06 sec)
+[2023.11.24-02.29.39:289][160]AssetCheck: New page: Asset Save: BP_Mission_Trigger
+[2023.11.24-02.29.39:289][160]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Mission/BP_Mission_Trigger.BP_Mission_Trigger
+[2023.11.24-02.29.39:315][161]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RecastNavMesh-Default).
+[2023.11.24-02.29.46:080][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-02.29.46:190][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2023.11.24-02.29.46:999][565]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.11.24-02.29.46:999][565]LogSavePackage: Moving '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Saved/ThirdPersonMapE5219E084C9D06D0272F5CA51A15E90C.tmp' to '../../../../../Proyectos Unreal_Github/Final_Map_Adventure/Adventure_Map/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2023.11.24-02.29.47:023][565]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.893
+[2023.11.24-02.29.47:029][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 948 ms (total: 9.01 sec)
+[2023.11.24-02.29.47:039][565]AssetCheck: New page: Asset Save: ThirdPersonMap
+[2023.11.24-02.29.47:039][565]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.11.24-02.29.49:089][686]LogShaderCompilers: Display: ================================================
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Total job queries 284, among them cache hits 23 (8.10%)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Tracking 261 distinct input hashes that result in 130 distinct outputs (49.81%)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: RAM used: 1.65 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.20%
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Shaders Compiled: 41
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Jobs assigned 41, completed 41 (100.00%)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Average time worker was idle: 697.22 s
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Time job spent in pending queue: average 0.28 s, longest 1.32 s
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Job execution time: average 1.23 s, max 2.01 s
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Job life time (pending + execution): average 1.51 s, max 2.08
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.79 s
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Jobs were issued in 41 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Average processing rate: 4.19 jobs/sec
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Total thread time: 29.89 s
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Total thread preprocess time: 2.09 s
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Percentage time preprocessing: 6.99%
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Effective parallelization: 3.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 1.10 sec, max 1.11 sec, min 1.08 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 1.03 sec, max 1.23 sec, min 0.74 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.98 sec, max 0.98 sec, min 0.98 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.97 sec, max 1.15 sec, min 0.78 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.72% of total time (compiled    4 times, average 1.03 sec, max 1.23 sec, min 0.74 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.97% of total time (compiled    4 times, average 0.97 sec, max 1.15 sec, min 0.78 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.68% of total time (compiled    4 times, average 0.87 sec, max 1.04 sec, min 0.69 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.14% of total time (compiled    4 times, average 0.61 sec, max 0.69 sec, min 0.50 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 7.34% of total time (compiled    2 times, average 1.10 sec, max 1.11 sec, min 1.08 sec)
+[2023.11.24-02.29.49:098][686]LogShaderCompilers: Display: ================================================
+[2023.11.24-02.30.37:947][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.11.24-02.30.43:937][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
